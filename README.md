@@ -1,44 +1,52 @@
-#commands needs to follow:
+## Commands needs to follow
 
-#bellow command is for windows(cmd)
+## below command is for windows(CMD)
 
-mkdir <project folder name>
-cd <project folder name>
+```
+mkdir <project_folder_name>
+```
+
+```
+cd <project_folder_name>
+```
+
+```
 code .
+```
 
-##for conda env setup
-conda create -p <env_name)> python=3.10 -y
-conda activate <path of the env>
+## for conda env setup
 
+```
+conda create -p <env_name> python=3.10 -y
+```
+
+```
+conda activate <path_of_the_env>
+```
+
+```
 pip install -r requirements.txt
+```
 
-## git commands
+## git commands(this commands is for the later uses)
 
-git clone 
+```
 git init
+```
+
+```
 git add .
-git commit -m "write commit message."
+```
+
+```
+git commit -m "<write your commit message>"
+```
+
+```
 git push
+```
+### for cloning my repo use this command
 
-#commands needs to follow:
-
-#bellow command is for windows(cmd)
-
-mkdir <project folder name>
-cd <project folder name>
-code .
-
-##for conda env setup
-conda create -p <env_name)> python=3.10 -y
-conda activate <path of the env>
-
-pip install -r requirements.txt
-
-## git commands
-
-git clone https://github.com/AshayGawali/document_portal.git
-git init
-git add .
-git commit -m "write commit message."
-git push
-
+```
+git clone https://github.com/AshayGawali/doc_portal.git
+```
