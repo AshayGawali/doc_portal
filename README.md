@@ -50,3 +50,8 @@ git push
 ```
 git clone https://github.com/AshayGawali/doc_portal.git
 ```
+
+### minimum requirement for this project
+1. LLM Model ## groq(free), openai(paid), gemini(15days free), claude(paid), huggingface(free), ollama(local setup-good OS Configuration needed)
+2. Embedding Model ## openai, hf, gemini
+3. Vector database ## inmemory, onmemory, cloudbased
